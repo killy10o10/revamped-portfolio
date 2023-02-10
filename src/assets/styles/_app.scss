@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600;700&display=swap');
+@import 'colors';
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  overflow: hidden;
+  background: linear-gradient(
+    to right,
+    $dark-cyan,
+    $dark-cyan 50%,
+    $bright-gray 50%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+a:hover {
+  background-position: 0 100%;
+}
+
+body {
+  background-color: $grayish-blue;
+  color: $bright-gray;
+}
