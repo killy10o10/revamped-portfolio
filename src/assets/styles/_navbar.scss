@@ -9,6 +9,15 @@
 
   .logo {
     flex: 0.2;
+    border-right: 1px solid rgba(238, 238, 238, 0.1);
+
+    h1 {
+      font-family: 'Oswald', sans-serif;
+
+      span {
+        color: $dark-cyan;
+      }
+    }
   }
 
   .menu {
