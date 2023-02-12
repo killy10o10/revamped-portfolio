@@ -1,0 +1,39 @@
+.landing-page-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 79px;
+  display: flex;
+}
+
+.intro-text {
+  flex: 1;
+  margin-left: 70px;
+  
+  h1 {
+    max-width: 590px;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 96px;
+    text-transform: uppercase;
+  }
+}
+
+.text-arrow {
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 2.5rem;
+    left: -78px;
+    transform: rotate(-5deg);
+  }
+}
+
+.hire-buttons {
+  display: flex;
+  margin-top: 48px;
+  align-items: center;
+  gap: 24px;
+}

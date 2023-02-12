@@ -1,6 +1,14 @@
 @import 'colors';
 
+.big-nav {
+  position: relative;
+}
+
 .navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,10 +17,11 @@
 
   .logo {
     flex: 0.2;
-    border-right: 1px solid rgba(238, 238, 238, 0.1);
 
     h1 {
       font-family: 'Oswald', sans-serif;
+      margin-left: 66px;
+      font-size: 24px;
 
       span {
         color: $dark-cyan;
