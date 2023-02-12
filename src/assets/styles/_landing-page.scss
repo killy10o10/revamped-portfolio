@@ -10,12 +10,12 @@
 .intro-text {
   flex: 1;
   margin-left: 70px;
-  
+
   h1 {
     max-width: 590px;
     font-weight: bold;
     font-size: 6rem;
-    line-height: 96px;
+    line-height: 100%;
     text-transform: uppercase;
   }
 }
@@ -36,4 +36,10 @@
   margin-top: 48px;
   align-items: center;
   gap: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .landing-page-section {
+    flex-direction: column;
+  }
 }
