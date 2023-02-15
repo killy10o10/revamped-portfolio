@@ -45,10 +45,11 @@ button {
   text-align: center;
   padding: 10px 32px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-  font-size: 18px;
+  font-size: 1.125rem;
   color: $bright-gray;
   transition: all 0.1s ease-out;
   border: none;
+  white-space: nowrap;
   cursor: pointer;
 }
 
@@ -58,10 +59,16 @@ button {
 
 .bg-dark {
   background: rgba(57, 62, 70, 0.75);
+  backdrop-filter: blur(2px);
 }
 
 .bg-cyan {
   background: $dark-cyan;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
 body {
